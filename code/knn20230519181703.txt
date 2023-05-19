@@ -1,0 +1,28 @@
+Computing k-NN classification for (k=2)...
+Knn Prediction Execution time : 880190ms
+Confusion Matrix : 
+                Predicted
+                    0       1
+  Actual    0   18901      28
+            1      28    1043
+
+Error rate		0.0028
+False alarm rate	0.00147921
+Detection rate		0.973856
+F-score			0.973856
+Precision		0.973856
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Computing k-NN classification for (k=0)...
+Knn Prediction Execution time : 100ms
+Confusion Matrix : 
+                Predicted
+                    0       1
+  Actual    0   18929       0
+            1    1071       0
+
+Error rate		0.05355
+False alarm rate	0
+Detection rate		0
+F-score			-1
+Precision		-1
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
