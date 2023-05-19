@@ -1,0 +1,120 @@
+dim: 249 k: 4 sampling: Gaussian
+Projection donne in  : 10ms
+Performing Knn on projected data Execution time: 3140ms
+Testing Knn on projected data Execution time: 507710ms
+                Predicted
+                    0       1
+  Actual    0   18897      32
+            1      36    1035
+
+Error rate		0.0034
+False alarm rate	0.00169053
+Detection rate		0.966387
+F-score			0.968195
+Precision		0.970009
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+dim: 249 k: 4 sampling: Rademacher
+Projection donne in  : 10ms
+Performing Knn on projected data Execution time: 4390ms
+Testing Knn on projected data Execution time: 50ms
+                Predicted
+                    0       1
+  Actual    0   18929       0
+            1    1071       0
+
+Error rate		0.05355
+False alarm rate	0
+Detection rate		0
+F-score			-1
+Precision		-1
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+dim: 249 k: 3 sampling: Gaussian
+Projection donne in  : 0ms
+Performing Knn on projected data Execution time: 3680ms
+Testing Knn on projected data Execution time: 499560ms
+                Predicted
+                    0       1
+  Actual    0   18903      26
+            1      29    1042
+
+Error rate		0.00275
+False alarm rate	0.00137355
+Detection rate		0.972923
+F-score			0.974287
+Precision		0.975655
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+dim: 249 k: 3 sampling: Rademacher
+Projection donne in  : 0ms
+Performing Knn on projected data Execution time: 4310ms
+Testing Knn on projected data Execution time: 50ms
+                Predicted
+                    0       1
+  Actual    0   18929       0
+            1    1071       0
+
+Error rate		0.05355
+False alarm rate	0
+Detection rate		0
+F-score			-1
+Precision		-1
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+dim: 249 k: 7 sampling: Gaussian
+Projection donne in  : 0ms
+Performing Knn on projected data Execution time: 3810ms
+Testing Knn on projected data Execution time: 520290ms
+                Predicted
+                    0       1
+  Actual    0   18893      36
+            1      34    1037
+
+Error rate		0.0035
+False alarm rate	0.00190184
+Detection rate		0.968254
+F-score			0.967351
+Precision		0.966449
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+dim: 249 k: 7 sampling: Rademacher
+Projection donne in  : 10ms
+Performing Knn on projected data Execution time: 3690ms
+Testing Knn on projected data Execution time: 60ms
+                Predicted
+                    0       1
+  Actual    0   18929       0
+            1    1071       0
+
+Error rate		0.05355
+False alarm rate	0
+Detection rate		0
+F-score			-1
+Precision		-1
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+dim: 249 k: 5 sampling: Gaussian
+Projection donne in  : 0ms
+Performing Knn on projected data Execution time: 3350ms
+Testing Knn on projected data Execution time: 499190ms
+                Predicted
+                    0       1
+  Actual    0   18896      33
+            1      35    1036
+
+Error rate		0.0034
+False alarm rate	0.00174336
+Detection rate		0.96732
+F-score			0.968224
+Precision		0.96913
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+dim: 249 k: 5 sampling: Rademacher
+Projection donne in  : 10ms
+Performing Knn on projected data Execution time: 3790ms
+Testing Knn on projected data Execution time: 60ms
+                Predicted
+                    0       1
+  Actual    0   18929       0
+            1    1071       0
+
+Error rate		0.05355
+False alarm rate	0
+Detection rate		0
+F-score			-1
+Precision		-1
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
